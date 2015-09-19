@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cool Tech - The amazing hack</title>
+	<meta name="author" content="Anbu(anbutoffee@gmail.com)">
+
+	<link href="bootstrap/bootstrap.min.css" rel="stylesheet">
+	<style type="text/css">
+		body {
+			padding-top: 20px;
+		}
+		.sidebar-nav {
+			padding: 9px 0;
+		}
+
+		.text-center
+		{
+			text-align: center !important;
+		}
+
+		.top-buffer { margin-top:10px; }
+	</style>
+</head>
+<body>
+	<div class="container">
+		<form id="wizardForm" name="wizardForm"> 	
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<h2 class="panel-title">Cool Tech - The amazing hack</h2> 
+				</div>
+				<div class="panel-body">
+					<div id="rootwizard">
+						<div class="navbar-inner">
+							<ul>
+								<li><a href="#tab_adduser" data-toggle="tab">Add User</a></li>
+								<li><a href="#tab_userlist" data-toggle="tab">User List</a></li>
+								<li><a href="#tab_search" data-toggle="tab">Search</a></li>
+								<li><a href="#tab_upload" data-toggle="tab">Upload</a></li>
+								<li><a href="#tab_history" data-toggle="tab">History</a></li>
+								<li><a href="#tab_configuration" data-toggle="tab">Set Configuration</a></li>
+							</ul>
+						</div>
+						<div class="tab-content">
+							<div class="tab-pane" id="tab_adduser">
+								<div class="well">
+									<h5><strong>Add user form</strong></h5>													    	
+								</div>				          
+							</div>
+							<div class="tab-pane" id="tab_userlist">
+								<div class="well">				            
+									<h5><strong>User list</strong></h5>
+								</div>
+							</div>
+							<div class="tab-pane" id="tab_search">
+								<div class="well">
+									<div class="row" id="triggerAlert">
+										<div class="col-lg-12 alert-danger">
+											<h5>Search content.</h5>
+										</div>
+									</div>									
+								</div>
+							</div>
+							<div class="tab-pane" id="tab_upload">
+								<div class="well">
+									<div class="row" id="timerAlert">
+										<div class="col-lg-12 alert-danger">
+											<h5>Upload screen.</h5>
+										</div>
+									</div>									
+								</div>
+							</div>
+							<div class="tab-pane" id="tab_history">
+								<div class="well">
+									<div class="row">
+										<div class="col-sm-12">
+											<h5>History content</h5>
+										</div>
+									</div>									
+								</div>
+							</div>
+							<div class="tab-pane" id="tab_configuration">
+								<div class="well">
+									<h5><strong>Configuration set up</strong></h5>									
+								</div>
+							</div>
+							<div class="row">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+	<script src="bootstrap/jquery.js"></script>
+	<script src="bootstrap/bootstrap.min.js"></script>
+	<script src="bootstrap/jquery.bootstrap.wizard.js"></script>
+	<script src="js/commonScriptLibrary.js"></script>	
+	
+</body>
+</html>
